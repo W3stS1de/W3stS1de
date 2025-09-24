@@ -1,0 +1,71 @@
+name: Generate Snake Animation
+
+# Run every 6 hours and allow manual trigger
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      # Step 1: Get repository code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      # Step 2: Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      # Step 3: Create directory for temporary files
+      - name: Create dist directory
+        run: mkdir -p dist
+        
+      # Step 4: Generate original snake
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-generated.svg
+            dist/snake-dark-generated.svg?palette=github-dark
+            
+      # Step 5: Apply custom styles
+      - name: Apply custom styles
+        run: |
+          echo "Applying custom styles..."
+          python scripts/customize_snake.py
+          
+      # Step 6: Show results
+      - name: Show file info
+        run: |
+          echo "Created files:"
+          ls -la snake.svg 2>/dev/null || echo "snake.svg not found"
+          ls -la dist/ 2>/dev/null || echo "dist directory empty"
+          
+      # Step 7: Setup Git
+      - name: Setup Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+      # Step 8: Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git add snake.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update snake animation with custom styles"
+            git push
+            echo "Changes pushed to repository"
+          fi
