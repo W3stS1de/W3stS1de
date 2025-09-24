@@ -2,11 +2,11 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # каждые 6 часов
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   generate:
@@ -19,9 +19,15 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
+          palette: |
+            #ebedf0,
+            #9be9a8,
+            #40c463,
+            #30a14e,
+            #216e39
           
       - name: Push snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
           build_dir: dist
