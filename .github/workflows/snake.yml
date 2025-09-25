@@ -10,6 +10,8 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 10
     
     steps:
@@ -33,26 +35,10 @@ jobs:
           outputs: |
             dist/snake-generated.svg
             
-      - name: Debug - Check generated files
-        run: |
-          echo "Files in dist:"
-          ls -la dist/
-          echo "Generated file exists:"
-          test -f dist/snake-generated.svg && echo "YES" || echo "NO"
-          echo "Python script exists:"
-          test -f scripts/customize_snake.py && echo "YES" || echo "NO"
-          
       - name: Apply custom styles
         run: |
           echo "Applying custom styles..."
           python scripts/customize_snake.py
-          
-      - name: Debug - Check output files
-        run: |
-          echo "Files after processing:"
-          ls -la snake.svg 2>/dev/null || echo "snake.svg not found"
-          echo "First few lines of snake.svg:"
-          head -5 snake.svg 2>/dev/null || echo "Cannot read snake.svg"
           
       - name: Setup Git
         run: |
@@ -62,6 +48,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git add snake.svg
+          git status
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
