@@ -1,3 +1,2 @@
 # Hey guys
-
-https://raw.githubusercontent.com/W3st1de/W3st1de/main/snake.svg
+![Snake animation](https://raw.githubusercontent.com/W3st1de/W3st1de/main/snake.svg?v=1)
