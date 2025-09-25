@@ -17,13 +17,7 @@ def apply_custom_styles(input_file, output_file):
         with open(input_file, 'r', encoding='utf-8') as f:
             original_content = f.read()
         
-        # Simply replace the style section with our custom styles
-        # Keep everything else from the original file intact
-        
-        # Find the existing style block
-        style_pattern = r'<style>(.*?)</style>'
-        
-        # Our custom style block
+        # Our custom style block - we'll keep original animations intact
         custom_styles = """
         :root {
             --cb: #1b1f230a;
@@ -70,28 +64,35 @@ def apply_custom_styles(input_file, output_file):
             transform-origin: 0 0;
             transform: scale(0,1);
             animation: none linear 20300ms infinite;
-        }"""
+        }
+        """
         
-        # Extract and preserve all original animations
+        # Extract original style content
+        style_pattern = r'<style>(.*?)</style>'
         original_style_match = re.search(style_pattern, original_content, re.DOTALL)
-        if original_style_match:
-            original_style = original_style_match.group(1)
-            
-            # Extract all @keyframes and other animations
-            keyframes_pattern = r'(@keyframes[^}]+}[^}]*})'
-            keyframes = re.findall(keyframes_pattern, original_style, re.DOTALL)
-            
-            if keyframes:
-                custom_styles += "\n        \n        /* Original animations */\n        "
-                custom_styles += "\n        ".join(keyframes)
         
-        # Replace the style block
-        custom_content = re.sub(
-            style_pattern, 
-            f'<style>{custom_styles}\n    </style>', 
-            original_content, 
-            flags=re.DOTALL
-        )
+        if original_style_match:
+            original_style_content = original_style_match.group(1)
+            
+            # Find all complete @keyframes blocks - improved regex
+            # This pattern captures complete keyframes including all nested braces
+            keyframes_pattern = r'@keyframes\s+[^{]+\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
+            keyframes = re.findall(keyframes_pattern, original_style_content, re.DOTALL)
+            
+            # Also capture any remaining CSS classes with animations
+            class_animations_pattern = r'\.c\.c[0-9a-f]+\{[^}]*\}'
+            class_animations = re.findall(class_animations_pattern, original_style_content)
+            
+            if keyframes or class_animations:
+                custom_styles += "\n        \n        /* Original animations */\n        "
+                if keyframes:
+                    custom_styles += "\n        ".join(keyframes)
+                if class_animations:
+                    custom_styles += "\n        " + "\n        ".join(class_animations)
+        
+        # Replace the entire style block with our custom version
+        new_style_block = f'<style>{custom_styles}\n    </style>'
+        custom_content = re.sub(style_pattern, new_style_block, original_content, flags=re.DOTALL)
         
         # Update description
         custom_content = re.sub(
