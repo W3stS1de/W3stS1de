@@ -1,6 +1,5 @@
 name: Generate Snake Animation
 
-# Run every 6 hours and allow manual trigger
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -14,51 +13,52 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Step 1: Get repository code
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           
-      # Step 2: Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           
-      # Step 3: Create directory for temporary files
       - name: Create dist directory
         run: mkdir -p dist
         
-      # Step 4: Generate original snake
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-generated.svg
-            dist/snake-dark-generated.svg?palette=github-dark
             
-      # Step 5: Apply custom styles
+      - name: Debug - Check generated files
+        run: |
+          echo "Files in dist:"
+          ls -la dist/
+          echo "Generated file exists:"
+          test -f dist/snake-generated.svg && echo "YES" || echo "NO"
+          echo "Python script exists:"
+          test -f scripts/customize_snake.py && echo "YES" || echo "NO"
+          
       - name: Apply custom styles
         run: |
           echo "Applying custom styles..."
           python scripts/customize_snake.py
           
-      # Step 6: Show results
-      - name: Show file info
+      - name: Debug - Check output files
         run: |
-          echo "Created files:"
+          echo "Files after processing:"
           ls -la snake.svg 2>/dev/null || echo "snake.svg not found"
-          ls -la dist/ 2>/dev/null || echo "dist directory empty"
+          echo "First few lines of snake.svg:"
+          head -5 snake.svg 2>/dev/null || echo "Cannot read snake.svg"
           
-      # Step 7: Setup Git
       - name: Setup Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-      # Step 8: Commit and push changes
       - name: Commit and push changes
         run: |
           git add snake.svg
