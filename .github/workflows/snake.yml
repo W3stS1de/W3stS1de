@@ -1,7 +1,7 @@
 name: Generate snake animation
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -11,30 +11,13 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: Generate snake.svg
+      - name: Generate snake.svg with custom colors
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          outputs: dist/snake.svg?color_snake=#00c647&color_dots=#161b22,#01311f,#034525,#0f6d31,#00c647
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Apply custom dark/light theme CSS
-        run: |
-          # Находим секцию :root в SVG и добавляем медиа-запрос для темной темы
-          sed -i '/:root{/,/^}/a\
-          @media (prefers-color-scheme:dark){\
-            :root{\
-              --ce:#161b22;\
-              --c1:#01311f;\
-              --c2:#034525;\
-              --c3:#0f6d31;\
-              --c4:#00c647\
-            }\
-          }' dist/snake.svg
       
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4.0.0
