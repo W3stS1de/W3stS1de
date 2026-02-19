@@ -1,4 +1,8 @@
-<h1 align="center" W3stS1de / Developer</h1>
+<h1 align="center">👋 W3stS1de</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
+</p>
 
 ###
 
@@ -45,12 +49,6 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo" />
 </div>
-
-###
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=W3stS1de&theme=github_dark" alt="Profile Details" />
-</p>
 
 ###
 
