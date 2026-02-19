@@ -59,8 +59,9 @@
 ###
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=W3stS1de&show_icons=true&theme=dark&hide_border=true&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117&hide_rank=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=W3stS1de&layout=compact&theme=dark&hide_border=true&title_color=00ff41&text_color=ffffff&bg_color=0d1117&langs_count=6" />
+  <img src="https://img.shields.io/badge/💪-Never%20Stop%20Learning-00ff41?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/🚀-Keep%20Coding-00ff41?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/⚡-Stay%20Creative-00ff41?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 ###
