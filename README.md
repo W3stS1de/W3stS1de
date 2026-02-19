@@ -1,5 +1,7 @@
+<h1 align="center">👋 W3stS1de</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=B8848A&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
 </p>
 
 ###
@@ -51,37 +53,14 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=W3stS1de&theme=chartreuse-dark&show_icons=true&hide_border=true&count_private=true&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=W3stS1de&theme=dark&show_icons=true&hide_border=true&count_private=true&title_color=B8848A&icon_color=B8848A&text_color=ffffff&bg_color=0d1117">
 </p>
 
 ###
 
 <p align="center">
-  <img src="https://github-profile-trophy-tawny.vercel.app/?username=W3stS1de&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7">
+  <img src="https://github-profile-trophy-tawny.vercel.app/?username=W3stS1de&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7">
 </p>
-
-###
-
-<div align="center">
-
-### 🎯 What I Do
-
-```text
-💻  Building full-stack applications
-🔧  Writing clean and maintainable code  
-📚  Always learning something new
-🚀  Turning ideas into reality
-```
-
-### 🛠️ Tech Stack
-
-`C#` • `Python` • `JavaScript` • `TypeScript` • `React` • `Node.js` • `HTML` • `CSS` • `Sass`
-
-### 🌱 Currently Exploring
-
-`System Design` • `Cloud Architecture` • `DevOps`
-
-</div>
 
 ###
 
