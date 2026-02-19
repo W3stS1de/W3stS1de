@@ -1,4 +1,4 @@
-<h1 align="center">👋 W3stS1de / Developer</h1>
+<h1 align="center"> W3stS1de / Developer</h1>
 
 ###
 
