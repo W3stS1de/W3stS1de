@@ -1,11 +1,9 @@
 name: Generate Snake Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
 
 jobs:
   generate:
@@ -14,16 +12,26 @@ jobs:
       contents: write
     
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       
-      - uses: Platane/snk@v3
+      - name: Generate snake (light mode)
+        uses: Platane/snk@v3
         with:
           github_user_name: W3stS1de
-          outputs: snake.svg
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
           
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: main
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy files
+        run: |
+          cp dist/snake.svg snake.svg
+          cp dist/snake-dark.svg snake-dark.svg
+          
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snake.svg snake-dark.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update snake"
+          git push
