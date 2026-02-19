@@ -1,4 +1,4 @@
-<h1 align="center"> W3stS1de / Developer</h1>
+<h1 align="center">👋 W3stS1de / Developer</h1>
 
 ###
 
@@ -50,30 +50,6 @@
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=W3stS1de&theme=github_dark" alt="Profile Details" />
-</p>
-
-###
-
-<h3 align="center">📊 Weekly Development Breakdown</h3>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" alt="Coding Activity" />
-</p>
-
-###
-
-<h3 align="center">🏆 GitHub Profile Trophy</h3>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=W3stS1de&theme=darkhub&no-frame=true&no-bg=true&column=4&margin-w=15" alt="Trophies" />
-</p>
-
-###
-
-<h3 align="center">💡 Random Dev Fact</h3>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=W3stS1de&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
 </p>
 
 ###
