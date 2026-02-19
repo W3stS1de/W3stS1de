@@ -18,7 +18,7 @@ jobs:
       
       - uses: Platane/snk@v3
         with:
-          github_user_name: W3st1de
+          github_user_name: W3stS1de
           outputs: snake.svg
           
       - uses: crazy-max/ghaction-github-pages@v3
