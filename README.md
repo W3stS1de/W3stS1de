@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
 </p>
@@ -52,12 +51,35 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3stS1de&custom_title=Contribution%20Graph&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area_color=00ff41&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=W3stS1de&theme=chartreuse-dark&show_icons=true&hide_border=true&count_private=true&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117">
 </p>
 
 ###
 
+<p align="center">
+  <img src="https://github-profile-trophy-tawny.vercel.app/?username=W3stS1de&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7">
+</p>
 
+###
+
+<div align="center">
+
+### 🎯 What I Do
+
+```text
+💻  Building full-stack applications
+🔧  Writing clean and maintainable code  
+📚  Always learning something new
+🚀  Turning ideas into reality
+```
+
+### 🛠️ Tech Stack
+
+`C#` • `Python` • `JavaScript` • `TypeScript` • `React` • `Node.js` • `HTML` • `CSS` • `Sass`
+
+### 🌱 Currently Exploring
+
+`System Design` • `Cloud Architecture` • `DevOps`
 
 </div>
 
