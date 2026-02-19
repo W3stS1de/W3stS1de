@@ -18,6 +18,8 @@
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=css" height="40" alt="css logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass logo" />
 </div>
 
 ###
@@ -47,19 +49,31 @@
 ###
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote" />
-</p>
-
-###
-
-<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=W3stS1de&theme=github_dark" alt="Profile Details" />
 </p>
 
 ###
 
+<h3 align="center">📊 Weekly Development Breakdown</h3>
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3stS1de&theme=github-compact&hide_border=true&area=true" alt="Activity Graph" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" alt="Coding Activity" />
+</p>
+
+###
+
+<h3 align="center">🏆 GitHub Profile Trophy</h3>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=W3stS1de&theme=darkhub&no-frame=true&no-bg=true&column=4&margin-w=15" alt="Trophies" />
+</p>
+
+###
+
+<h3 align="center">💡 Random Dev Fact</h3>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=W3stS1de&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
 </p>
 
 ###
