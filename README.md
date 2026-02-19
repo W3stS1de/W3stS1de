@@ -1,4 +1,3 @@
-<h1 align="center">👋 W3stS1de</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
@@ -58,24 +57,7 @@
 
 ###
 
-<div align="center">
 
-### 🎯 What I Do
-
-```text
-💻  Building full-stack applications
-🔧  Writing clean and maintainable code  
-📚  Always learning something new
-🚀  Turning ideas into reality
-```
-
-### 🛠️ Tech Stack
-
-`C#` • `Python` • `JavaScript` • `TypeScript` • `React` • `Node.js` • `HTML` • `CSS` • `Sass`
-
-### 🌱 Currently Exploring
-
-`System Design` • `Cloud Architecture` • `DevOps`
 
 </div>
 
