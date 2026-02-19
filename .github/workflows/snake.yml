@@ -1,8 +1,6 @@
 name: Generate snake animation
-
 on:
   workflow_dispatch:
-
 jobs:
   generate:
     permissions:
@@ -11,11 +9,13 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      - name: Generate snake.svg (default colors)
+      - name: Generate snake.svg (default + dark)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
