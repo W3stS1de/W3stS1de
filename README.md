@@ -58,17 +58,24 @@
 
 ###
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=W3stS1de&theme=github_dark" alt="Profile Summary" />
-</p>
-
-###
-
 <div align="center">
 
-| 💻 Most Used Languages | 📊 GitHub Stats |
-|:---:|:---:|
-| ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=W3stS1de&layout=compact&theme=dark&hide_border=true&title_color=00ff41&text_color=ffffff&bg_color=0d1117) | ![Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=W3stS1de&show_icons=true&theme=dark&hide_border=true&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117&hide_rank=true) |
+### 🎯 What I Do
+
+```text
+💻  Building full-stack applications
+🔧  Writing clean and maintainable code  
+📚  Always learning something new
+🚀  Turning ideas into reality
+```
+
+### 🛠️ Tech Stack
+
+`C#` • `Python` • `JavaScript` • `TypeScript` • `React` • `Node.js` • `HTML` • `CSS` • `Sass`
+
+### 🌱 Currently Exploring
+
+`System Design` • `Cloud Architecture` • `DevOps`
 
 </div>
 
