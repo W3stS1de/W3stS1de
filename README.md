@@ -16,4 +16,8 @@
   <img src="https://github-profile-trophy.vercel.app/?username=W3stS1de&theme=darkhub&no-frame=true&no-bg=true&margin-w=4">
 </p>
 
-![Snake animation](https://raw.githubusercontent.com/W3stS1de/W3stS1de/output/snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/W3stS1de/W3stS1de/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/W3stS1de/W3stS1de/output/snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/W3stS1de/W3stS1de/output/snake-dark.svg">
+</picture>
