@@ -1,44 +1,68 @@
-<h1 align="center">👋 Hey guys</h1>
-
-<h3 align="center">Developer | Coder | Tech Enthusiast</h3>
+<h1 align="center">👋 W3stS1de / Developer</h1>
 
 ###
 
-<h3 align="center">Tech Stack</h3>
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,py,js,ts,react,nodejs,html,css" height="50" />
+  <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css logo" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux" height="50" />
-</div>
-
-###
-
-<h3 align="center">GitHub Stats</h3>
-
-<div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=W3stS1de&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&cache_seconds=1800" alt="GitHub Stats" />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=W3stS1de&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800" alt="Top Languages" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=W3stS1de&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo" />
 </div>
 
 ###
 
-<h3 align="center">Contribution Snake</h3>
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote" />
+</p>
+
+###
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=W3stS1de&theme=github_dark" alt="Profile Details" />
+</p>
+
+###
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3stS1de&theme=github-compact&hide_border=true&area=true" alt="Activity Graph" />
+</p>
+
+###
 
 <p align="center">
   <picture>
