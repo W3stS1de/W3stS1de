@@ -1,3 +1,5 @@
+<h1 align="center">👋 W3stS1de</h1>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
 </p>
@@ -47,6 +49,12 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo" />
 </div>
+
+###
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=W3stS1de&style=flat-square&color=00ff41&label=Profile+Views" alt="Profile views" />
+</p>
 
 ###
 
