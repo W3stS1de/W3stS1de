@@ -1,3 +1,5 @@
+<h1 align="center">👋 W3stS1de</h1>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=I'm+WestSide;Full+Stack+Developer;Always+learning+new+things" alt="Typing SVG" />
 </p>
@@ -51,19 +53,14 @@
 ###
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=W3stS1de&theme=matrix&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="Trophies" />
-</p>
-
-###
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=W3stS1de&custom_title=Contribution%20Graph&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area_color=00ff41&area=true&hide_border=true" alt="Contribution Graph" />
 </p>
 
 ###
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=W3stS1de&theme=dark&hide_border=true&background=0D1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=ffffff" alt="GitHub Streak" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=W3stS1de&show_icons=true&theme=dark&hide_border=true&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117&hide_rank=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=W3stS1de&layout=compact&theme=dark&hide_border=true&title_color=00ff41&text_color=ffffff&bg_color=0d1117&langs_count=6" />
 </p>
 
 ###
