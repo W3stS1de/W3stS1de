@@ -1,16 +1,12 @@
-<h1 align="center">WestSide</h1>
+<h1 align="center"> WestSide
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,js,html,css" height="40" alt="languages" />
 </div>
 
-<br/>
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode" height="40" alt="tools" />
 </div>
-
-<br/>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=W3stS1de&theme=dark&show_icons=true&hide_border=true&count_private=true&locale=ru&bg_color=161b22&title_color=00c647&icon_color=00c647&text_color=c9d1d9">
